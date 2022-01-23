@@ -1,0 +1,116 @@
+$Black-two: #111111;
+.final {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+  .final__header {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    span {
+      margin-top: 80px;
+      font-family: "Montserrat";
+      font-size: 36px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: 4.5px;
+      color: $Black-two;
+      text-transform: uppercase;
+    }
+    p {
+      margin-top: 25px;
+      width: 400px;
+      height: 45px;
+      font-family: "NotoSansCJKkr", sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 1.8;
+      color: $Black-two;
+      text-align: center;
+    }
+    .final__btn {
+      border-radius: 5px;
+      margin-top: 40px;
+      width: 160px;
+      height: 60px;
+      border: 3px solid $Black-two;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 800;
+    }
+  }
+  .final__content {
+    width: 70%;
+    height: 70vh;
+    margin: 80px auto;
+    border: 1px solid black;
+    z-index: 9999;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .img-2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: -164px;
+    top: 300px;
+  }
+  .img-3 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    top: 0;
+    left: 120px;
+  }
+  .img-6 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    top: 100px;
+    right: 40px;
+  }
+  .img-7 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    top: 170px;
+    right: 110px;
+  }
+  .img-8 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: -106px;
+    bottom: 260px;
+  }
+  .img-9 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: -80px;
+    bottom: 10px;
+    z-index: 1;
+  }
+  .img-10 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 500px;
+  }
+}
